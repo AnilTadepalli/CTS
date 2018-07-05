@@ -49,9 +49,7 @@ public class Assignment1 {
 		        }
 	}
 	
-	// point d -dont know - but tell them i will take any footer element like company logo or any element in the footer contact us etc
-	// to check this scenario.
-	// e
+// e
 	public void verifyAllURLs(String link){
 		List<WebElement> pagelinks=driver.findElements(By.tagName("a"));
 				
@@ -91,7 +89,7 @@ public class Assignment1 {
 	     	// show No results found etc;
 	       	WebElement resultsText=driver.findElement(By.xpath("xpath for below string element");  	
 	     	
-	       	if(resultsText.toString().contains("Showing 1 – 24 of 93 results for iphone")){
+	       	if(resultsText.toString().contains("Showing 1 â€“ 24 of 93 results for iphone")){
 	     		//print in the console
 	     		System.out.println("results found for iphone");
 	    // or use testng asssert statement to validate
@@ -129,7 +127,7 @@ public class Assignment1 {
 	       		Collections.sort(savepricelist);
 	       		System.out.println(savepricelit);
 	       		// it prints the elements in ascending order 
-	   // similarly you can write for 2nd site & print in ascending order
+	   // similarly we can write for 2nd site & print in ascending order
 	      		
 	       		
 	       	}
